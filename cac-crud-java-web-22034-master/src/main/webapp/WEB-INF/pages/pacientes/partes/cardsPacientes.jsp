@@ -1,5 +1,5 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:forEach items="${listaPacientes}" var="alumno">  
+<c:forEach items="${listaPacientes}" var="paciente">  
     <div class="col">
         <div class="card h-100">
             <!-- Foto -->
@@ -8,7 +8,7 @@
             <div class="card-body p-4">
                 <div class="text-center">
                     <h5 class="fw-bolder">${paciente.nombreCompleto}</h5>
-                    <p class="mb-1">${paciente.fechaNacimiento} (${paciente.edad} años)</p>
+                    <p class="mb-1">${paciente.fechaNacimiento} (${paciente.edad} aÃ±os)</p>
                     <ins>${paciente.mail}</ins> 
                 </div>
             </div>
