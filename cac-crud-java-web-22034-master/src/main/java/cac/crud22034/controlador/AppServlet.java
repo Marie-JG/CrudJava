@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.Properties;
 
-@WebServlet(name = "AppServlet", urlPatterns = {"/app"})
+@WebServlet(name = "AppServlet", urlPatterns = {"/cac-crud-java-web-22034"})
 public class AppServlet extends HttpServlet {
 
     private Modelo model;
